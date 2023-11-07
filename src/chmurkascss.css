@@ -2,20 +2,24 @@
     position: relative;
     display: inline-block;
     margin: 10px;
+    transition: transform 0.2s; /* Dodaj efekt przejścia */
 }
 
 .image-info {
     position: absolute;
-    top: -10px; /* Pozycja górna */
-    right: 120%; /* Pozycja od prawej strony */
-    background-color: rgba(0, 0, 0, 0.8); /* Kolor tła */
-    color: #fff; /* Kolor tekstu */
+    top: 0; /* Pozycja górna */
+    right: -10px; /* Pozycja od prawej strony */
+    background-color: rgba(55, 255, 0, 0.8); /* Kolor tła */
+    color: #000000; /* Kolor tekstu */
     padding: 10px;
     border-radius: 5px;
-    display: none; /* Początkowo ukryj */
+    opacity: 100%;
     z-index: 1; /* Zawsze na wierzchu */
 }
 
-.image-container:hover .image-info {
+
+.image-container:hover {
     display: block;
+    border-color: chocolate;
+    transform: translateX(10px); /* Dodaj efekt przesunięcia chmurki */
 }

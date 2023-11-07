@@ -15,8 +15,8 @@ const Galeria = () => {
 
     const [hoveredInfo, setHoveredInfo] = useState(null);
 
-    const handleImageHover = (image) => {
-        setHoveredInfo(image);
+    const handleImageHover = (index) => {
+        setHoveredInfo(index);
     };
 
     const handleImageLeave = () => {
@@ -27,13 +27,14 @@ const Galeria = () => {
         <div className="galeria">
             {obrazy.map((image, index) => (
                 <div
-                    key={index + 1}
+                    key={index+1}
                     className="image-container"
-                    onMouseEnter={() => handleImageHover(image)}
+
+                    onMouseEnter={() => handleImageHover(index)}// Przekazanie indeksu obrazka
                     onMouseLeave={handleImageLeave}
                 >
                     <img src={image.src} alt={image.title} />
-                    {hoveredInfo === image && (
+                    {hoveredInfo === index && (
                         <div className="image-info">
                             <h3>{image.title}</h3>
                             <p>{image.description}</p>
