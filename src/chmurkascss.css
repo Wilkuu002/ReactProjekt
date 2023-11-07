@@ -1,0 +1,21 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-info {
+    position: absolute;
+    top: -10px; /* Pozycja górna */
+    right: 120%; /* Pozycja od prawej strony */
+    background-color: rgba(0, 0, 0, 0.8); /* Kolor tła */
+    color: #fff; /* Kolor tekstu */
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Początkowo ukryj */
+    z-index: 1; /* Zawsze na wierzchu */
+}
+
+.image-container:hover .image-info {
+    display: block;
+}
