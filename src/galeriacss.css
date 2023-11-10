@@ -28,7 +28,7 @@ body {
 }
 .galeria img:hover
 {
-    animation: spin-img infinite 10s linear;
+    animation: spin-img infinite 12s linear;
 }
 @keyframes spin-img {
     0% {
