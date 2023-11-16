@@ -23,6 +23,7 @@
   cursor: pointer;
   font-size: x-large;
   border-radius: 10px;
+  min-width: 30vh;
 }
 
 .Menu button:hover {
