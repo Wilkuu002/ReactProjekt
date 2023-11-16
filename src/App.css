@@ -1,38 +1,29 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin:auto;
+  background-color: #a38443; /* Dostosuj kolor tła do swoich preferencji */
+  color: white; /* Dostosuj kolor tekstu do swoich preferencji */
+  padding: 10px;
+  text-align: center;
+  z-index: 1000; /* Ustaw z-index na wartość większą niż reszta strony, aby pasek menu był zawsze na wierzchu */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Menu button {
+  margin: 0 10px; /* Dodaj margines między przyciskami */
+  padding: 5px 10px; /* Dostosuj padding dla lepszego wyglądu */
+  background-color: #282828; /* Dostosuj kolor tła przycisków */
   color: white;
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Menu button:hover {
+  background-color: #8eff6e; /* Zmiana koloru tła po najechaniu myszką */
 }
