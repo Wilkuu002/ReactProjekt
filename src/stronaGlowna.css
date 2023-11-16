@@ -1,8 +1,37 @@
-.Tekst
-{
-    color: #100f0f;
-    max-width: 80%;
+.StronaGlowna {
+    display: flex;
+    justify-content: center;
     margin: auto;
-    height: 40%;
-    background-color: #e7d9c2;
+    align-items: center;
+    min-height: 80vh;
+    margin-bottom: 5vh;
+}
+
+.TekstContainer {
+    text-align: center;
+    background-color: #626262;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Tekst {
+    color: black;
+    font-size: 3vh;
+    margin: 5vh 5vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.TekstContainer:hover {
+    transform: scale(1.1); /* Zastosowanie transformacji podczas hovera */
+}
+
+.Tekst:hover  {
+    transform: scale(1.1); /* Zastosowanie transformacji podczas hovera */
+    transition: transform 0.5s ease-in-out;
+}
+
+.TekstContainer:not(:hover) ,
+ .Tekst:not(:hover) {
+    transform: scale(1); /* Zastosowanie transformacji powrotnej po zakończeniu hovera */
+    transition: transform 0.5s ease-in-out;
 }
