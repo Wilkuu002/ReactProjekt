@@ -23,3 +23,6 @@
     border-color: chocolate;
     transform: translateX(10px); /* Dodaj efekt przesunięcia chmurki */
 }
+.image-container.powiekszony {
+    transform: scale(1.2); /* Zastosuj powiększenie dla efektu hover i kliknięcia */
+}
