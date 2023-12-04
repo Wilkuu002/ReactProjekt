@@ -1,7 +1,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import './stronaGlowna.css';
+import '../css/stronaGlowna.css';
 
 const StronaGlowna = () => {
     const [tekstZPliku, setTekstZPliku] = useState('');

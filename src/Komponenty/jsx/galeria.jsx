@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import './galeriacss.css';
-import './chmurkascss.css'
+import '../css/galeriacss.css';
+import '../css/chmurkascss.css'
 
 const Galeria = () => {
     const obrazy = [

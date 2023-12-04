@@ -1,8 +1,8 @@
 
 import './App.css';
-import Galeria from "./galeria";
-import StronaGlowna from "./StronaGlowna.jsx";
-import Guziki from "./Guziki";
+import Galeria from "./Komponenty/jsx/galeria";
+import StronaGlowna from "./Komponenty/jsx/StronaGlowna.jsx";
+import Guziki from "./Komponenty/jsx/Guziki";
 
 function App() {
     return (

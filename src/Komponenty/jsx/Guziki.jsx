@@ -1,4 +1,4 @@
-import './Guziki.css'
+import '../css/Guziki.css'
  const Guziki = ()=>{
     return(
         <div className="Menu">
