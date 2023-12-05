@@ -1,19 +1,21 @@
-// MenuButtons.jsx
+
 
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../css/Guziki.css"
+function Guziki({ onComponentChange }) {
+    const handleClick = (componentName) => {
+        onComponentChange(componentName);
+    };
 
-function Guziki() {
     return (
         <div className="Menu">
-            <Link to="/" className="button ">Strona Główna</Link>
-            <Link to="/obrazy" className="button ">Obrazy</Link>
-            <Link to="/dodaj-obraz" className="button ">Dodaj obraz</Link>
-            <Link to="/Kontakt" className="button ">Kontakt</Link>
+            <Link to="/" onClick={() => handleClick("StronaGlowna")} className="button">Strona Główna</Link>
+            <Link to="/obrazy" onClick={() => handleClick("Galeria")}  className="button">Obrazy</Link>
+            <Link to="/dodaj-obraz" onClick={() => handleClick("DodajObraz")} className="button">dodaj obraz</Link>
+            <Link to="/Kontakt" onClick={() => handleClick("Kontakt")}  className="button">Kontakt</Link>
         </div>
     );
 }
-
 
 export default Guziki;
