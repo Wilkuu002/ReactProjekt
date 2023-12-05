@@ -14,7 +14,7 @@ function App() {
                 <Guziki/>
                 <StronaGlowna/>
                 <Galeria/>
-                <Routes>
+                <Routes >
                     <Route path="/" element={<StronaGlowna />} />
                     <Route path="/obrazy" element={<Galeria />} />
                     <Route path="/Kontakt" element={<Kontakt />} />
