@@ -1,12 +1,18 @@
-import '../css/Guziki.css'
- const Guziki = ()=>{
-    return(
+// MenuButtons.jsx
+
+import React from "react";
+import {Link, Route, Router, Routes} from "react-router-dom";
+
+
+function MenuButtons() {
+    return (
         <div className="Menu">
-            <button>Strona Główna</button>
-            <button>Obrazy</button>
-            <button>Dodaj obraz</button>
-            <button>Kontakt</button>
+            <Link to="/">Strona Główna</Link>
+            <Link to="/obrazy">Obrazy</Link>
+            <Link to="/dodaj-obraz">Dodaj obraz</Link>
+            <Link to="/Kontakt">Kontakt</Link>
         </div>
-    )
+    );
 }
-export default Guziki
+
+export default MenuButtons;
