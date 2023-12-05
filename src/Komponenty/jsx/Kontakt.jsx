@@ -1,17 +1,23 @@
+import "../css/Kontakt.css"
+
 const Kontakt = ()=>{
     return(
-        <div>
+        <div className="form">
             <h1>Kontakt</h1>
-            <div className="Wiadomosc">
-                <h3>Wiadomość...</h3>
-            </div>
             <div className="ButtonSend">
-                <h3>Wyślij</h3>
+                <div className="Wiadomosc">
+
+            </div>
+
+                <h3 className="SendButton">Wyślij</h3>
+
+            </div>
+            <div>
                 <h1>Faq</h1>
-                <div>
-                    <li className="FAQ"></li>
-                    <li className="FAQ"></li>
-                </div>
+                    <ul className="FAQlist">
+                    <li className="FAQ"> asdsdghsdfgh</li>
+                    <li className="FAQ">dgjfgjkghjk</li>
+                </ul>
             </div>
         </div>
     )
