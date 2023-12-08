@@ -1,4 +1,3 @@
-// Kontakt.jsx
 
 import React from "react";
 import "../css/Kontakt.css"; // Importuje plik CSS dla Komponentu Kontakt
