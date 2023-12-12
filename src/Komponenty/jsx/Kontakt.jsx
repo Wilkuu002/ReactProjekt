@@ -1,6 +1,6 @@
 
 import React from "react";
-import "../css/Kontakt.css"; // Importuje plik CSS dla Komponentu Kontakt
+import "../css/Kontakt.css";
 
 const Kontakt = () => {
     return (
