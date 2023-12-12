@@ -7,11 +7,22 @@
 }
 .Naglowki{
     background-color: #a48543;
+    min-width: 100%;
 }
 
-.Wiadomosc {
+.Wiadomosc div{
     margin-top: 11px;
 }
+.Wiadomosc textarea {
+    width: 80%;
+    min-height: 30vh;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 
 .Wiadomosc h3 {
     color: #333;

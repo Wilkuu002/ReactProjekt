@@ -8,7 +8,8 @@ const Kontakt = () => {
             <h1 className="Naglowki">Kontakt</h1>
             <div className="ButtonSend">
                 <div className="Wiadomosc">
-                    <label htmlFor="message">Wiadomość:</label>
+                    <div>Wiadomość</div>
+                    <label htmlFor="message"></label>
                     <textarea id="message" name="message" rows="4" cols="50"></textarea>
                 </div>
                 <h3 className="SendButton">Wyślij</h3>
