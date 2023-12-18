@@ -9,10 +9,10 @@
     position: absolute;
     top: 0; /* Pozycja górna */
     right: -10px; /* Pozycja od prawej strony */
-    background-color: rgba(55, 255, 0, 0.8); /* Kolor tła */
+    background-color: rgba(158, 232, 137, 0.8); /* Kolor tła */
     color: #000000; /* Kolor tekstu */
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     opacity: 100%;
     z-index: 1; /* Zawsze na wierzchu */
 }
