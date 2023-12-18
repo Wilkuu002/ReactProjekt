@@ -20,7 +20,7 @@
 
 .image-container:hover {
     display: block;
-    border-color: chocolate;
+    border-color: #d5783a;
     transform: translateX(10px); /* Dodaj efekt przesunięcia chmurki */
 }
 .image-container.powiekszony {
