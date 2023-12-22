@@ -50,7 +50,7 @@
 .SendButton,
 .WiadomoscKontener h1 {
     color: #fff;
-    background-color: #4caf50;
+    background-color: #61e065;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -60,7 +60,7 @@
 
 .SendButton:hover,
 .WiadomoscKontener h1:hover {
-    background-color: #45a049;
+    background-color: #3a883d;
 }
 
 .FAQList {
@@ -69,7 +69,7 @@
 }
 
 .FAQ {
-    background-color: #f2f2f2;
+    background-color: #cbcbcb;
     min-height: 5vh;
     padding: 10px;
     margin: 5px;
